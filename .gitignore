@@ -9,7 +9,13 @@
 
 # Ignore environment-specific files
 .envrc
+.env.sh
 
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+.terraform.lock.hcl
+terraform.tfstate
+
+# Kubeconfig
+k8s-do.yaml
